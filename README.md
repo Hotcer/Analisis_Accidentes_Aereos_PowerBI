@@ -1,11 +1,3 @@
-# Proyecto Individual Nº2 - Análisis de Accidentes Aéreos
-
-¡Bienvenidos a mi proyecto individual número 2! En este proyecto, asumiré el rol de un Data Analyst para abordar un tema crítico y de alta importancia: los accidentes aéreos.
-
-## Contexto
-
-Los accidentes aéreos son eventos inesperados y potencialmente catastróficos que involucran aeronaves y pueden causar daños físicos, pérdidas humanas y daños materiales significativos. Estos accidentes pueden ser causados por una variedad de factores, como errores humanos, fallos técnicos, condiciones climáticas adversas y más. Investigar y analizar estos incidentes es esencial para prevenir futuros accidentes y mejorar la seguridad en la industria de la aviación.
-
 ## Rol que Desarrollé
 
 En este proyecto, asumí el rol de un analista de datos que trabajó para la Organización de Aviación Civil Internacional (OACI), una entidad de las Naciones Unidas. La OACI estuvo interesada en realizar un análisis en profundidad de los accidentes aéreos que habían ocurrido desde principios del siglo XX. El objetivo fue comprender mejor las causas subyacentes de estos accidentes y mejorar la seguridad en la aviación.
@@ -34,7 +26,4 @@ Para llevar mi trabajo al siguiente nivel y demostrar mis habilidades como Data 
 - Crear una base de datos en un motor SQL y cargar el conjunto de datos procesado para utilizarlo como fuente de datos en el dashboard de Power BI.
 
 - Ejecutar scripts de Python en la herramienta de visualización de datos para realizar análisis más avanzados.
-- Explorar la posibilidad de cruzar datos con conjuntos de datos complementarios para obtener información adicional o compararla con la información disponible en el conjunto de datos obligatorio.
-
-¡Estoy emocionado por este proyecto y ansioso por aplicar mis habilidades de análisis de datos para contribuir a la mejora de la seguridad en la industria de la aviación! Si tienes alguna pregunta o comentario, ¡no dudes en contactarme!
 
