@@ -1,29 +1,89 @@
-## Rol que Desarrollé
 
-En este proyecto, asumí el rol de un analista de datos que trabajó para la Organización de Aviación Civil Internacional (OACI), una entidad de las Naciones Unidas. La OACI estuvo interesada en realizar un análisis en profundidad de los accidentes aéreos que habían ocurrido desde principios del siglo XX. El objetivo fue comprender mejor las causas subyacentes de estos accidentes y mejorar la seguridad en la aviación.
+# Análisis de Accidentes Aéreos 🛩️
 
-## Propuesta de Trabajo
+## Descripción del Problema y Rol Desarrollado 👨‍💻
 
-### Análisis Exploratorio de Datos (EDA) 
+La Organización de Aviación Civil Internacional (OACI) quería investigar en profundidad los accidentes aéreos ocurridos desde inicios del siglo XX. El objetivo era obtener un análisis de datos y un dashboard visual para comprender mejor las causas de los accidentes y mejorar la seguridad en la aviación.
 
-En primer lugar, realicé un análisis exploratorio de datos (EDA) utilizando un cuaderno de Jupyter. Este análisis exploratorio incluyó la búsqueda de valores faltantes, la identificación de valores atípicos u outliers y la detección de registros duplicados en el conjunto de datos de accidentes aéreos. Documenté todos los pasos y conclusiones en el cuaderno, lo que me permitió comprender mejor los datos y prepararlos para su análisis.
+En este proyecto asumí el rol de analista de datos de una consultora contratada por la OACI. Mi tarea fue realizar un exhaustivo análisis de los datos de accidentes aéreos y crear un dashboard interactivo para presentar los hallazgos.
 
-### Dashboard Interactivo
+## Contenido del Repositorio 🗂️
 
-Creé un dashboard interactivo en Power BI que presentó visualmente los resultados de mi análisis de accidentes aéreos. El dashboard incluyó filtros que permitieron a los usuarios explorar los datos de manera detallada. Me aseguré de que el diseño del dashboard facilitara la interpretación de la información y utilizara gráficos apropiados para cada tipo de variable. También proporcioné análisis y conclusiones basadas en los datos presentados en el dashboard.
+- `Notebooks/` 📓
 
-### KPIs (Indicadores Clave de Desempeño)
+  - `01_EDA.ipynb`: Análisis exploratorio de datos en Python/Pandas 
 
-Medí y grafiqué dos KPIs clave en el dashboard. El KPI principal fue evaluar la disminución del 10% en la tasa de fatalidad de la tripulación en los últimos 10 años, en comparación con la década anterior. La tasa de fatalidad de la tripulación se calculó como el número total de tripulantes fallecidos en accidentes durante el período, dividido por la cantidad total de accidentes aéreos en ese mismo período. Además, propuse, medí y grafiqué un segundo KPI relevante para la temática.
+- `Src/` 🖥️
 
-### Repositorio de GitHub
-Mantuve un repositorio de GitHub donde almacené todos los recursos relacionados con este proyecto. El repositorio contuvo un README principal que describió el proyecto y el contenido de cada archivo y carpeta en el repositorio. También incluí un informe de análisis basado en los resultados del dashboard y expliqué los KPIs en detalle.
+  - `processing.py`: Scripts de limpieza y procesamiento de datos
 
-## Desafíos Adicionales
+  - `visualization.py`: Scripts para creación de gráficos y visualizaciones
 
-Para llevar mi trabajo al siguiente nivel y demostrar mis habilidades como Data Analyst, consideré los siguientes desafíos:
+- `Data/` 📊
 
-- Crear una base de datos en un motor SQL y cargar el conjunto de datos procesado para utilizarlo como fuente de datos en el dashboard de Power BI.
+  - `airplane_accidents.csv`: Dataset de accidentes aéreos
 
-- Ejecutar scripts de Python en la herramienta de visualización de datos para realizar análisis más avanzados.
+  - `processed_data.csv`: Datos limpios y procesados
+  
+- `Docs/` 📑
+
+  - `EDA_Report.pdf`: Informe detallado del EDA
+
+  - `Dashboard_Guide.pdf`: Guía de uso del dashboard
+
+- `Dashboard/` 📊
+
+  - `Airplane_Dashboard.pbix`: Archivo de Power BI con el dashboard
+
+  - `Screenshots/`: Capturas del dashboard
+
+- `README.md`: Este archivo
+
+## Análisis Exploratorio de Datos 🕵️‍♂️
+
+El EDA (en el notebook `01_EDA.ipynb`) incluyó:
+
+- Revisión de datos faltantes
+
+- Detección y tratamiento de outliers 
+
+- Análisis de duplicados
+
+- Análisis de distribución y correlación de variables
+
+- Documentación detallada de hallazgos y conclusiones
+
+## Dashboard Interactivo 📈
+
+El dashboard en Power BI permite:
+
+- Filtrar por país, aerolinea, año, etc. 🗺️
+
+- Visualizar accidentes por región geográfica 🌎
+
+- Comparar tasa de fatalidad por década ⚰️
+
+- Analizar causas raíz de accidentes 🕵️
+
+- Exportar e imprimir visualizaciones 🖨️
+
+## KPIs Propuestos 📊
+
+- Disminución de 10% en tasa de fatalidad de tripulación 👨‍✈️
+
+- Accidentes por región en los últimos 20 años 🌎
+
+Ambos KPIs fueron medidos, graficados y analizados en detalle en el dashboard.
+
+## Base de Datos 🗄️
+
+Se creó una base de datos SQLite para almacenar los datos procesados y utilizarla como origen en el dashboard.
+
+## Scripts de Python 🐍 
+
+Se incorporaron scripts en Python para las tareas de procesamiento y visualización de datos.
+
+## Conclusiones ✅
+
+El proyecto permitió aplicar habilidades de limpieza, análisis y visualización de datos. El dashboard interactivo facilita la exploración de insights para mejorar la seguridad aérea.
 
