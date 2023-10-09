@@ -1,3 +1,4 @@
+![](https://github.com/Hotcer/Analisis_Accidentes_Aereos_PowerBI/blob/main/Imagenes/Captura%20desde%202023-10-09%2010-52-57.png)
 # Proyecto Individual No2 - Análisis de Accidentes Aéreos
 
 ¡Bienvenidos a mi proyecto individual número 2! Este proyecto representa un hito importante en mi carrera como Data Analyst, ya que abordé un tema de gran relevancia: los accidentes aéreos.
